@@ -1,0 +1,27 @@
+{
+  "name": "VectorLens AR: Sketch Assistant",
+  "short_name": "VectorLens",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Professional AI-powered tracing assistant. Turn any photo into a high-contrast sketch outline for physical tracing.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
